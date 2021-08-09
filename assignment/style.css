@@ -1,11 +1,55 @@
 /* Give your page a fun background color */
-
+body {
+    background-color: purple;
+    opacity: 1;
+}
 /* Make the header and footer a different color from the background */
+.header, .footer {
+
+    text-align: center;
+    background: #6495ED;
+}
+ .header {
+     padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.footer {
+    clear: both;
+    float: center;
+    color: black;
+    font-size: 15px;
+    font-family: cursive;
+    text-align: bottom;
+}
+
+.footer {
+    padding-bottom: 160px; 
+}
 
 /* Align the h1 containing your name in the center of the header*/
+/*done*/
 
 /* Make your p tag a different color and italic */
 
 /* Put a border around your image */
-
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 5px solid #B8860B
+}
+.row: :after {
+    content: "";
+    clear: both;
+    display: table;
+    boarder: 5px solidcolor #0000FF
+}
 /* Change the font-family of your list */
+.ul {
+    list-style: circle;
+    list-font; Gill Sans;
+    float: right;
+    list-style: right;
+
+}
